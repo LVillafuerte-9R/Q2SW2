@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robotics Club Registration Form</title>
+
+<!-- SETUP BOOTSTAP: link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- link to JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Add style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center><h1>Robotics Club Registration Form</h1></center>
+<div class="container">
+    <form>
+        <div class="email mb-3"> <!--div for name-->
+            <label for="inputName">Name</label>
+            <input type="name" class="form-control" id="inputName" placeholder="Name">
+        </div>
+
+        <div class="password mb-3"> <!--div for age-->
+            <label for="inputAge">Age</label>
+            <input type="number" class="form-control" id="imputAge" placeholder="Age">
+        </div>
+
+        <div class="password mb-3"> <!--div for email address-->
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="imputEmail" placeholder="Email">
+        </div>
+
+        <div class="password mb-3"> <!--div for phone number-->
+            <label for="inputPhoneNumber">Phone Number</label>
+            <input type="phonenumber" class="form-control" id="imputPhoneNumber" placeholder="Phone Number">
+        </div>
+        
+        <h2>What is Your Preferable Topic in Robotics?</h2>
+        <div > <!--div for checkboxes-->
+            <div class="programming mb-3">
+                <input type="checkbox" id="checkProgramming">
+                <label for="checkProgramming">Programming</label>
+            </div>
+        </div>
+       
+        <div >
+            <div class="electronics mb-3">
+                <input type="checkbox" id="checkElectronics">
+                <label for="checkElectronics">Electronics</label>
+            </div>
+        </div>
+
+         <div >
+            <div class="Human–RobotInteraction design mb-3">
+                <input type="checkbox" id="checkHuman-RobotInteraction">
+                <label for="checkHuman-RobotInteraction">Human–Robot Interaction</label>
+            </div>
+        </div>
+          
+          <h2>How Much Do You Know About Robotics?</h2>
+              <input type="radio" id="level1" name="Very Well" value="Very Well">
+              <label for="level1">Very Well</label><br>
+              <input type="radio" id="level2" name="Almost" value="Almost">
+              <label for="level2">Almost</label><br>  
+              <input type="radio" id="level3" name="Not so Much" value="Not so Much">
+              <label for="level3">Not so Much</label><br><br>
+
+          <label for="Projects"><h2>Favorite Robotics Project?</h2></label><br>
+        <select name="Projects" id="Projects">
+              <option value="Object Tracker & Follower Robot">Object Tracker & Follower Robot</option>
+              <option value="Robotic Vehicle Controlled By Hand Gesture">Robotic Vehicle Controlled By Hand Gesture</option>
+            <option value="360° Aerial Surveillance">360° Aerial Surveillance</option>
+          
+<input type="submit" name="submit">
+</div>
+
+<!-- FOOTER -->
+  <div class="footer">
+    <a href="https://github.com/LVillafuerte-9R">Lauren Mary R. Villafuerte | 9-Ruby</a>
+  </div>
+
+
+</body>
+</html>
+

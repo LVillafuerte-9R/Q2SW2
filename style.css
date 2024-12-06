@@ -1,0 +1,24 @@
+* {
+
+}
+
+body {
+	background-image: url(https://i.pinimg.com/736x/c0/35/66/c03566f7d51604a316b0d09f0cb26c74.jpg);
+}
+
+.container {
+	background-color: steelblue;
+}
+
+.footer {
+	background-color: black;
+	text-align: center;
+}
+
+h1 {
+	color: floralwhite;
+}
+
+h2 {
+	color: floralwhite;
+}
